@@ -8,7 +8,7 @@ export const integrationSpecSettings = {
         "app_description": "A slang interpreter integration that detects slang in messages and replaces them with their full forms for clearer communication.",
         "app_logo": "https://iili.io/Jcshqe2.webp",
         "app_name": "Slang interpreter.",
-        "app_url": "https://fsx70m97-4000.uks1.devtunnels.ms/",
+        "app_url": "https://hng12-stage3-slang-interpreter.onrender.com/",
         "background_color": "#HEXCODE"
       },
       "integration_category": "Email & Messaging",
@@ -60,7 +60,7 @@ export const integrationSpecSettings = {
           "options": ["Standard", "Verbose", "Brief"]
         }
       ],
-      "target_url": "https://fsx70m97-4000.uks1.devtunnels.ms/webhook"
+      "target_url": "https://hng12-stage3-slang-interpreter.onrender.com/webhook"
     }
   }
   
