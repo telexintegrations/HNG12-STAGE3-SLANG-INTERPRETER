@@ -8,7 +8,7 @@ export const integrationSpecSettings = {
         "app_description": "A slang interpreter integration that detects slang in messages and replaces them with their full forms for clearer communication.",
         "app_logo": "https://iili.io/Jcshqe2.webp",
         "app_name": "Slang interpreter.",
-        "app_url": "https://hng12-stage3-slang-interpreter-jd5y.onrender.com/"
+        "app_url": "https://hng12-stage3-slang-interpreter-jd5y.onrender.com/",
         "background_color": "#HEXCODE"
       },
       "integration_category": "Email & Messaging",

@@ -1,6 +1,7 @@
 import express, { Request, Response } from "express";
 import { integrationSpecSettings } from "./slang_interpreter";
 import dotenv from "dotenv";
+import cors from 'cors';
 
 dotenv.config();
 
@@ -9,6 +10,7 @@ const PORT = process.env.PORT || 5000;
 
 // Middleware to parse JSON bodies
 app.use(express.json());
+app.use(cors());
 
 // Root endpoint
 app.get("/", (req: Request, res: Response) => {
